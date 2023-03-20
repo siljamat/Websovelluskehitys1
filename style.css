@@ -1,0 +1,128 @@
+body {
+    background-color: #e6ebe0; /* vaalea vihreä */
+}
+
+header {
+    background-color: #4c5544; /* tumma vihreä */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 30%;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar-nav a:hover {
+    color: white;
+    background-color: #4c5544;
+    border-radius: 3px;
+    padding: 3px;
+}
+nav {
+    background-color: #a3a889; /* vaaleampi vihreä */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #4c5544; /* tumma vihreä */
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #4c5544; /* tumma vihreä */
+    border-radius: 3px;
+    padding: 3px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap; /* sarakkeiden kääriminen */
+    justify-content: center; /* keskitä sarakkeet */
+    width: 80%;
+}
+
+article {
+    background-color: #d5e0c9; /* vaalea vihreä */
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: auto;
+    box-shadow: 2px 2px 5px #4c5544; /* tumma vihreä */
+}
+
+article h2 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+article p {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 10px 10px 0;
+}
+
+aside {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #c6d5a2; /* vaaleampi vihreä */
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #4c5544; /* tumma vihreä */
+}
+
+aside p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+aside nav {
+    background-color: #a3a889; /* vaaleampi vihreä */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer {
+    background-color: #a3a889; /* vaaleampi vihreä */
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: #4c5544; /* tumma vihreä */
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer a:hover {
+    color: white;
+    background-color: #4c5544; /* tumma vihreä */
+    border-radius: 5px;
+    padding: 5px;
+}
